@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '', url: 'https://github.com/dmamanipar/SysEventos2.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://https://github.com/Alex-145/TestjavaAsis.git'
                 }
             }
         }
